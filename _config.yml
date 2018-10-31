@@ -1,3 +1,10 @@
 name: Jacko, Physicist
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: pretty
+collections:
+  posts
+  patents
+  publications
+  abstracts
+
+//permalink: /blog/:year/:month/:day/:title
