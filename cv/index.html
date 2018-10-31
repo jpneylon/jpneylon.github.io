@@ -15,7 +15,7 @@ title: Jack Neylon, PhD
 <h3>PATENTS</h3>
 <ol class="patents">
   {% for patent in site.patents %}
-    <li><span>{{ patent.date | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a></li>
+    <li><span>{{ patent.issued | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a></li>
   {% endfor %}
 </ol>
 
