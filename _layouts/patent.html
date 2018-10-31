@@ -1,16 +1,17 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<h2>{{ page.number }}</h2>
-<h3>{{ page.inventors }}</h3>
+<header class="patent-intro">
+  <h1>{{ page.title }}</h1>
+  <h2>{{ page.number }}</h2>
+  <h3>{{ page.inventors }}</h3>
+  <p>Filed: {{ page.filed | date_to_string }}</p>
+  <p>Issued: {{ page.issued | date_to_string }}</p>
+</header>
 
-<p class="meta">Filed: {{ page.filed | date_to_string }}</p>
-<p class="meta">Issued: {{ page.issued | date_to_string }}</p>
-
-<div class="patent">
+<div class="patent-body">
   <p>Abstract:</p>
   {{ content }}
+  <br>
+  <a href={{ page.link }}>View on Google Patents</a>
 </div>
-
-<a href={{ page.link }}>View on Google Patents</a>
