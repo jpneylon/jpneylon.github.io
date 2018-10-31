@@ -15,9 +15,12 @@ title: Jack Neylon, PhD
 	<br>
 	<h3>PATENTS</h3>
 	<ul class="patents">
-	  {% for patent in site.patents %}
-	    <li><a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a></li>
-	  {% endfor %}
+		{% assign patents = site.patents | sort: 'id' %}
+		{% for patent in site.patents %}
+		<li>
+			<a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
+		</li>
+		{% endfor %}
 	</ul>
 </div>
 
