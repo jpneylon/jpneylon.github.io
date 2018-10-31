@@ -23,32 +23,3 @@ title: Jack Neylon, PhD
 		{% endfor %}
 	</ul>
 </div>
-
-<br>
-<h3>PUBLICATIONS</h3>
-<ol class="publications">
-  {% for publication in site.publications %}
-    <li><span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a></li>
-  {% endfor %}
-</ol>
-
-<br>
-<h3>ABSTRACTS</h3>
-<ol class="abstracts">
-  {% for abstract in site.abstracts %}
-    <li><span>{{ abstract.date | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a></li>
-  {% endfor %}
-</ol>
-
-
-EXPERIENCE
-=====
-
-CERTIFICATIONS & AWARDS
-=====
-
-EDUCATION
-=====
-
-TEACHING
-=====
