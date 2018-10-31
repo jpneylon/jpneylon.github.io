@@ -11,13 +11,15 @@ title: Jack Neylon, PhD
 	<p>I'm a Medical Physicist, which means I speciailize in healthcare applications of radiation. I'm going to use this space to highlight my work at the intersection of physics, programming, and medicine...</a></p>
 </div><!-- /.blurb -->
 
-<br>
-<h3>PATENTS</h3>
-<ul class="patents">
-  {% for patent in site.patents %}
-    <li><span>{{ patent.date | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="patent-section">
+	<br>
+	<h3>PATENTS</h3>
+	<ul class="patents">
+	  {% for patent in site.patents %}
+	    <li><a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a></li>
+	  {% endfor %}
+	</ul>
+</div>
 
 <br>
 <h3>PUBLICATIONS</h3>
