@@ -3,8 +3,12 @@ markdown: kramdown
 permalink: pretty
 collections:
   posts
+    output: true
   patents
+    output: true
   publications
+    output: true
   abstracts
+    output: true
 
 #permalink: /blog/:year/:month/:day/:title
