@@ -3,13 +3,38 @@ layout: default
 title: Jack Neylon, PhD
 ---
 <div class="blurb">
-	<h1>Jack Neylon, PhD</h1>
+	<h1>{{ page.title }}</h1>
 	<h2>Physicist & Assistant Clinical Professor</h2>
 	<h3>City of Hope National Medical Center</h3>
 	<h3>Department of Radiation Oncology</h3>
 	<h4>Duarte, CA 91010</h4>
 	<p>I'm a Medical Physicist, which means I speciailize in healthcare applications of radiation. I'm going to use this space to highlight my work at the intersection of physics, programming, and medicine...</a></p>
 </div><!-- /.blurb -->
+
+<br>
+<h3>PATENTS</h3>
+<ol class="patents">
+  {% for patent in site.patents %}
+    <li><span>{{ patent.date | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a></li>
+  {% endfor %}
+</ol>
+
+<br>
+<h3>PUBLICATIONS</h3>
+<ol class="publications">
+  {% for publication in site.publications %}
+    <li><span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a></li>
+  {% endfor %}
+</ol>
+
+<br>
+<h3>ABSTRACTS</h3>
+<ol class="abstracts">
+  {% for abstract in site.abstracts %}
+    <li><span>{{ abstract.date | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a></li>
+  {% endfor %}
+</ol>
+
 
 EXPERIENCE
 =====
@@ -21,13 +46,4 @@ EDUCATION
 =====
 
 TEACHING
-=====
-
-PATENTS
-=====
-
-PUBLICATIONS
-=====
-
-ABSTRACTS
 =====
