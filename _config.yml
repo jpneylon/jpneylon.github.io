@@ -1,13 +1,14 @@
 name: Jacko, Physicist
 markdown: kramdown
 permalink: pretty
-collections:
-  posts
-  patents
+collections: 
+  posts:
     output: true
-  publications
+  patents:
     output: true
-  abstracts
+  publications:
+    output: true
+  abstracts:
     output: true
 
 #permalink: /blog/:year/:month/:day/:title
