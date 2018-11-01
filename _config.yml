@@ -10,3 +10,5 @@ collections:
     output: true
   abstracts:
     output: true
+
+theme: jekyll-theme-hacker
