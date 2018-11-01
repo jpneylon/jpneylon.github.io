@@ -18,7 +18,20 @@ title: Jack Neylon, PhD
 			{% assign patents = site.patents | sort: 'id' %}
 			{% for patent in site.patents %}
 			<li>
-				<a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
+				<span>{{ patent.issued | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+	<div class="publication-section">
+		<br>
+		<h3>PUBLICATIONS</h3>
+		<ul class="publications">
+			{% assign publications = site.publications | sort: 'published' %}
+			{% for publication in site.publications %}
+			<li>
+				<span>{{ publication.published | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ patent.title }}</a>
 			</li>
 			{% endfor %}
 		</ul>
