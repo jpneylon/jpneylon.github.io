@@ -97,7 +97,7 @@ title: Jack Neylon, PhD
 		<br>
 		<h3>ABSTRACTS</h3>
 		<ul class="abstracts">
-			{% assign abstracts = site.abstracts | sort: 'published' %}
+			{% assign abstracts = site.abstracts | sort: 'date' %}
 			{% for abstract in site.abstracts %}
 			<li>
 				<span>{{ abstract.published | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
