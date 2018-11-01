@@ -10,5 +10,3 @@ collections:
     output: true
   abstracts:
     output: true
-
-#permalink: /blog/:year/:month/:day/:title
