@@ -7,6 +7,8 @@ published: 2016-03-18
 doi: https://doi.org/10.1117/12.2217194
 link: /docs/2016-03-18-fast-simulated-annealing-adaptive-mc-parameter-optimization-optical-flow-dir.pdf
 ---
+**Abstract**
+
 Deformable image registration (DIR) is an important step in radiotherapy treatment planning. An optimal input registration parameter set is critical to achieve the best registration performance with the specific algorithm. 
 
 In this paper, we investigated a parameter optimization strategy for Optical-flow based DIR of the 4DCT lung anatomy. A novel fast simulated annealing with adaptive Monte Carlo sampling algorithm (FSA-AMC) was investigated for solving the complex non-convex parameter optimization problem. The metric for registration error for a given parameter set was computed using landmark-based mean target registration error (mTRE) between a given volumetric image pair. To reduce the computational time in the parameter optimization process, a GPU based 3D dense optical-flow algorithm was employed for registering the lung volumes. 
