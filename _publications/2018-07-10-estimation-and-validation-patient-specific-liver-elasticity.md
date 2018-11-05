@@ -3,7 +3,7 @@ layout: publication
 title: Estimation and Validation of Patient-Specific Liver Elasticity Distributions Derived from 4DMR for Radiotherapy Purposes
 authors: Katelyn Hasse, Fei Han, Jack Neylon, Peng Hu, Yingli Yang, and Anand Santhanam
 journal: "Biomedical Physics & Engineering Express, Volume 4, Number 4"
-published: 2018-07-10
+date: 2018-07-10
 doi: https://doi.org/10.1088/2057-1976/aace4d
 link: /docs/
 ---
