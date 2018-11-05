@@ -86,8 +86,7 @@ title: Jack Neylon, PhD
 		<br>
 		<h3>PUBLICATIONS</h3>
 		<ul class="publications">
-			{% assign sorted = site.publications | sort: 'published' %}
-			{% assign publications = sorted | reverse %}
+			{% assign publications = site.publications | sort: 'published' | reverse %}
 			{% for publication in site.publications %}
 			<li>
 				<span>{{ publication.published | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
@@ -100,8 +99,7 @@ title: Jack Neylon, PhD
 		<br>
 		<h3>ABSTRACTS</h3>
 		<ul class="abstracts">
-			{% assign abstracts = site.abstracts | sort: 'date' %}
-			{% assign abstracts = sorted | reverse %}
+			{% assign abstracts = site.abstracts | sort: 'date' | reverse %}
 			{% for abstract in site.abstracts %}
 			<li>
 				<span>{{ abstract.date | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
