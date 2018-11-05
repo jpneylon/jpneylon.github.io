@@ -87,7 +87,7 @@ title: Jack Neylon, PhD
 		<h3>PUBLICATIONS</h3>
 		<ul class="publications">
 			{% assign publications = site.publications | reverse %}
-			{% for publication in site.publications %}
+			{% for publication in publications %}
 			<li>
 				<span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
 			</li>
@@ -100,7 +100,7 @@ title: Jack Neylon, PhD
 		<h3>ABSTRACTS</h3>
 		<ul class="abstracts">
 			{% assign abstracts = site.abstracts | reverse %}
-			{% for abstract in site.abstracts %}
+			{% for abstract in abstracts %}
 			<li>
 				<span>{{ abstract.date | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
 			</li>
