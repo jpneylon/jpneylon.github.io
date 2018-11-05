@@ -1,14 +1,16 @@
 name: Jacko, Physicist
 markdown: kramdown
-permalink: pretty
+theme: jekyll-theme-hacker
 collections: 
   posts:
     output: true
+    permalink: /blog/:year/:month/:day/:title/
   patents:
     output: true
+    permalink: /patents/:year/:month/:title/
   publications:
     output: true
+    permalink: /publications/:year/:month/:title/
   abstracts:
     output: true
-
-theme: jekyll-theme-hacker
+    permalink: /abstracts/:year/:month/:title/
