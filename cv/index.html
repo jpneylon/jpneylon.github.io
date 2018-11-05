@@ -74,7 +74,7 @@ title: Jack Neylon, PhD
 		<h3>PATENTS</h3>
 		<ul class="patents">
 			{% assign patents = site.patents | sort: 'id' %}
-			{% for patent in site.patents %}
+			{% for patent in patents %}
 			<li>
 				<span>{{ patent.issued | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
 			</li>
@@ -86,7 +86,7 @@ title: Jack Neylon, PhD
 		<br>
 		<h3>PUBLICATIONS</h3>
 		<ul class="publications">
-			{% assign publications = site.publications | reverse %}
+			{% assign publications = site.publications | sort: 'date' | reverse %}
 			{% for publication in publications %}
 			<li>
 				<span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
@@ -99,7 +99,7 @@ title: Jack Neylon, PhD
 		<br>
 		<h3>ABSTRACTS</h3>
 		<ul class="abstracts">
-			{% assign abstracts = site.abstracts | reverse %}
+			{% assign abstracts = site.abstracts | sort: 'date' | reverse %}
 			{% for abstract in abstracts %}
 			<li>
 				<span>{{ abstract.date | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
