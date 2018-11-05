@@ -89,7 +89,7 @@ title: Jack Neylon, PhD
 			{% assign publications = site.publications | reverse %}
 			{% for publication in site.publications %}
 			<li>
-				<span>{{ publication.published | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
+				<span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
 			</li>
 			{% endfor %}
 		</ul>
