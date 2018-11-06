@@ -85,25 +85,25 @@ title: Jack Neylon, PhD
 	<div class="publication-jekyll">
 		<br>
 		<h3>PUBLICATIONS</h3>
-		<ul class="publications">
+		<ol class="publications">
 			{% assign publications = site.publications | sort: 'date' | reverse %}
 			{% for publication in publications %}
 			<li>
 				<span>{{ publication.date | date_to_string }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
 			</li>
 			{% endfor %}
-		</ul>
+		</ol>
 	</div>
 
 	<div class="abstract-jekyll">
 		<br>
 		<h3>ABSTRACTS</h3>
-		<ul class="abstracts">
+		<ol class="abstracts">
 			{% assign abstracts = site.abstracts | sort: 'date' | reverse %}
 			{% for abstract in abstracts %}
 			<li>
 				<span>{{ abstract.date | date_to_string }}</span> » <a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
 			</li>
 			{% endfor %}
-		</ul>
+		</ol>
 	</div>
