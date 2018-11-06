@@ -4,6 +4,7 @@ title: "Distortion-Free Diffusion MRI Using an MRI-Guided Tri-Cobalt 60 Radiothe
 authors: Yu Gao, Fei Han, Ziwu Zhou, Minsong Cao, Tania Kaprealian, Mitchell Kamrava, Chenyang Wang, Jack Neylon, Daniel A. Low, Yingli Yang, and Peng Hu
 journal: Medical Physics, Volume 44, Issue 10
 date: 2017-07-04
+year: 2017
 doi: https://doi.org/10.1002/mp.12465
 link: /docs/2017-07-04-distortion-free-diffusion-mri-viewray-sequence.pdf
 ---

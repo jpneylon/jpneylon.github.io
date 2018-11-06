@@ -4,6 +4,7 @@ title: Systematic Feasibility Analysis of a Quantitative Elasticity Estimation f
 authors: Katelyn Hasse, Jack Neyluon, Ke Sheng, and Anand Santhanam
 journal: Medical Physics, Volume 43, Issue 3
 date: 2016-02-17
+year: 2016
 doi: https://doi.org/10.1118/1.4941745
 link: /docs/2016-02-17-systematic-feasibility-quantitative-elasticity-breast-anatomy-supine-prone-posture.pdf
 ---

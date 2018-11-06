@@ -4,6 +4,7 @@ title: A Neural Network Approach for Fast, Automated Quantification of DIR
 authors: Jack Neylon, Yugang Min, Daniel A. Low, and Anand Santhanam
 journal: Medical Physics, Volume 44, Issue 8
 date: 2017-05-05
+year: 2017
 doi: https://doi.org/10.1002/mp.12321
 link: /docs/2017-05-05-neural-network-approach-for-fast-automated-quantification-of-dir.pdf
 ---

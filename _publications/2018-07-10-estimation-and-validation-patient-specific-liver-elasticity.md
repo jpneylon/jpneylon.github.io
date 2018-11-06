@@ -4,6 +4,7 @@ title: Estimation and Validation of Patient-Specific Liver Elasticity Distributi
 authors: Katelyn Hasse, Fei Han, Jack Neylon, Peng Hu, Yingli Yang, and Anand Santhanam
 journal: "Biomedical Physics & Engineering Express, Volume 4, Number 4"
 date: 2018-07-10
+year: 2018
 doi: https://doi.org/10.1088/2057-1976/aace4d
 link: /docs/
 ---
