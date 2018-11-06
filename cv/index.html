@@ -99,7 +99,7 @@ title: Jack Neylon, PhD
 		<br>
 		<h3>ABSTRACTS</h3>
 		<ol class="abstracts">
-			{% assign by_conference = site.abstract | group_by: 'conference' %}
+			{% assign by_conference = site.abstracts | group_by: 'conference' | sort: 'date' | reverse %}
 			{% for conf in by_conference %}
 				<h4> <span>{{ conf.items.first.date | date_to_string }}</span> » {{ conf.name }} </h4>
 				{% assign abstracts = conf.items %}
