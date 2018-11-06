@@ -88,12 +88,12 @@ title: Jack Neylon, PhD
 		<ul class="years">
 			{% assign by_year = site.publications | group_by: 'year' | sort: 'date' | reverse %}
 			{% for year in by_year %}
-			<li><h4>{{ year.name }}</h4></li>
+			<li><h4>{{ year.items.first.date | date: '%Y' }}</h4></li>
 				<ul class="publications">
 					{% assign publications = year.items | sort: 'date' | reverse %}
 					{% for publication in publications %}
 					<li>
-						<span>{{ publication.date | date: %B }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
+						<span>{{ publication.date | date: '%B' }}</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
 					</li>
 					{% endfor %}
 				</ul>
@@ -107,7 +107,7 @@ title: Jack Neylon, PhD
 		<ul class="conferences">
 			{% assign by_conference = site.abstracts | group_by: 'conference' | sort: 'date' | reverse %}
 			{% for conf in by_conference %}
-				<li><h4> <span>{{ conf.items.first.date | date: %Y-%m }}</span> » {{ conf.name }} </h4></li>
+				<li><h4> <span>{{ conf.items.first.date | date: '%Y-%m' }}</span> » {{ conf.name }} </h4></li>
 				<ul class="abstracts">
 					{% assign abstracts = conf.items %}
 					{% for abstract in abstracts %}
