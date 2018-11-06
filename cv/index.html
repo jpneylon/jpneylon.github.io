@@ -98,16 +98,18 @@ title: Jack Neylon, PhD
 	<div class="abstract-jekyll">
 		<br>
 		<h3>ABSTRACTS</h3>
-		<ol class="abstracts">
+		<ul class="conferences">
 			{% assign by_conference = site.abstracts | group_by: 'conference' | sort: 'date' | reverse %}
 			{% for conf in by_conference %}
-				<h4> <span>{{ conf.items.first.date | date_to_string }}</span> » {{ conf.name }} </h4>
-				{% assign abstracts = conf.items %}
-				{% for abstract in abstracts %}
-				<li>
-					<a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
-				</li>
-				{% endfor %}
+				<li><h4> <span>{{ conf.items.first.date | date_to_string }}</span> » {{ conf.name }} </h4></li>
+				<ul class="abstracts">
+					{% assign abstracts = conf.items %}
+					{% for abstract in abstracts %}
+					<li>
+						<a href="{{ abstract.url }}" title="{{ abstract.title }}">{{ abstract.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
 			{% endfor %}
-		</ol>
+		</ul>
 	</div>
