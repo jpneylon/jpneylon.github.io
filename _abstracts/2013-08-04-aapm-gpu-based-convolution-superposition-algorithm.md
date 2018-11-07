@@ -2,8 +2,10 @@
 layout: abstract
 title: Establishing a Quantitative Relation Between the Spectrum-Sampling Rate on the Dose Distrubtion Accuracy Using a GPU-Based Convolution/Superposition Algorithm
 authors: Jack Neylon, Anand Santhanam, Ke Sheng, Daniel A. Low, and Patrick Kupelian
-conference: "AAPM 2013: 55th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 40, Issue 6
+conference: "AAPM: 55th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 40
+issue: 6
 location: Indianapolis, IN
 date: 2013-08-04
 ---

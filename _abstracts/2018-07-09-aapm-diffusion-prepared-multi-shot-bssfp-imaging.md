@@ -2,8 +2,10 @@
 layout: abstract
 title: Diffusion-Prepared Multi-Shot BSSFP Imaging with Gradient Stabilizer for High-Resolution and Distortion-Free Diffusion Imaging
 authors: Yu Gao, Fei Han, Z Zhou, X Zhong, Jack Neylon, Anand Santhanam, Yingli Yang, and Peng Hu
-conference: "AAPM 2018: 60th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 56, Issue 6
+conference: "AAPM: 60th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 56
+issue: 6
 location: Nashville, TN
 date: 2018-07-29
 ---

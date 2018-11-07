@@ -2,8 +2,10 @@
 layout: abstract
 title: Quantifying the Dose to Functional Lung Regions Using Patient-Specific Elasticity Distrubitions Estimated from a Deep Learning Approach
 authors: Katelyn Hasse, Dylan O'Connell, Jack Neylon, Yugang Min, Percy Lee, Daniel A. Low, and Anand Santhanam
-conference: "AAPM 2018: 60th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 56, Issue 6
+conference: "AAPM: 60th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 56
+issue: 6
 location: Nashville, TN
 date: 2018-07-29
 ---

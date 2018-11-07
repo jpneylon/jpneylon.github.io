@@ -2,8 +2,10 @@
 layout: abstract
 title: Feasibility of Margin Reduction for Level II and III Planning Target Volume in Head-and-Neck Image Guided Radiation Therapy
 authors: X. Sharon Qi, Anand Santhanam, Jack Neylon, Patrick Kupelian, Michael Steinberg, Daniel A. Low, and Steve P. Lee
-conference: "ASTRO 2013: 55th Annual Meeting"
-journal: International Journal of Radiation Oncology Biology Physics, Volume 87, Issue 2
+conference: "ASTRO: 55th Annual Meeting"
+journal: International Journal of Radiation Oncology Biology Physics
+volume: 87
+issue: 2
 location: Atlanta, GA
 date: 2013-09-22
 ---

@@ -2,8 +2,10 @@
 layout: abstract
 title: Distributed Multi-GPU Photon Beamlet Dose Calculation for Efficient Radiation Treatment Planning
 authors: Ryan Neph, Cheng Ouyang, Jack Neylon, and Ke Sheng
-conference: "AAPM 2018: 60th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 56, Issue 6
+conference: "AAPM: 60th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 56
+issue: 6
 location: Nashville, TN
 date: 2018-07-29
 ---

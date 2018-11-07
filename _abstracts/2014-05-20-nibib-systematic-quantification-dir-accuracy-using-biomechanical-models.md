@@ -4,6 +4,8 @@ title: A Systematic Quantification of Image Registration Accuracy Using High-Res
 authors: Jack Neylon, Yugang Min, X. Sharon Qi, Patrick Kupelian, and Anand Santhanam
 conference: "NIH NIBIB Training Grantees Meeting"
 journal: 
+volume: 
+issue: 
 location: Bethesda, MD
 date: 2014-05-20
 ---

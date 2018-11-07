@@ -2,8 +2,10 @@
 layout: abstract
 title: On the Systematics Feasibility Analysis of Performing Lung Elastography Using Low-Dose 4DCT Imaging
 authors: Katelyn Hasse, Scott Hsieh, Dylan O'Connell, Jack Neylon, Yugang Min, Daniel A. Low, and Anand Santhanam
-conference: "AAPM 2018: 60th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 56, Issue 6
+conference: "AAPM: 60th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 56
+issue: 6
 location: Nashville, TN
 date: 2018-07-29
 ---

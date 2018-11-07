@@ -2,8 +2,10 @@
 layout: abstract
 title: A Multi-GPU Framework for Simulating High-Resolution Biomechanical Head-and-Neck Deformations
 authors: Jack Neylon, Patrick Kupelian, and Anand Santhanam
-conference: "NextMed/MMVR 21: Medicine Meets Virtual Reality"
-journal: Studies in Health Technology and Informatics, Volume 196
+conference: "NextMed / Medicine Meets Virtual Reality"
+journal: Studies in Health Technology and Informatics
+volume: 196
+issue: 21
 location: Manhattan Beach, CA
 date: 2014-02-19
 ---

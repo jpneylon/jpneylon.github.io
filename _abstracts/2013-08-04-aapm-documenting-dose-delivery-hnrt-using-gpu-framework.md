@@ -2,8 +2,10 @@
 layout: abstract
 title: Documenting Dose Delivery for Head-and-Neck Radiotherapy Using a GPU-Based Framework
 authors: Anand Santhanam, Jack Neylon, X. Sharon Qi, Robert Staton, Ke Sheng, Daniel A. Low, and Patrick Kupelian
-conference: "AAPM 2013: 55th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 40, Issue 6
+conference: "AAPM: 55th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 40
+issue: 6
 location: Indianapolis, IN
 date: 2013-08-04
 ---

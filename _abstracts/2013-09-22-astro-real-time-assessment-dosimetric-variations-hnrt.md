@@ -2,8 +2,10 @@
 layout: abstract
 title: Real-Time Assessment of Dosimetric Variations in Head-and-Neck Radiation Therapy
 authors: X. Sharon Qi, Jack Neylon, Anand Santhanam, Yugang Min, Ke Sheng, Daniel A. Low, Steve P. Lee, Michael Steinberg, and Patrick Kupelian
-conference: "ASTRO 2013: 55th Annual Meeting"
-journal: International Journal of Radiation Oncology Biology Physics, Volume 87, Issue 2
+conference: "ASTRO: 55th Annual Meeting"
+journal: International Journal of Radiation Oncology Biology Physics
+volume: 87
+issue: 2
 location: Atlanta, GA
 date: 2013-09-22
 ---

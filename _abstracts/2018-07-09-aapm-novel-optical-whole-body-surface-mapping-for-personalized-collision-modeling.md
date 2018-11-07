@@ -2,8 +2,10 @@
 layout: abstract
 title: Novel Optical Whole-Body Patient Surface Mapping for Robust Personalized Collision Modeling and Prevention in External Beam Radiotherapy
 authors: Victoria Yu, Jack Neylon, Minsong Cao, and Ke Sheng
-conference: "AAPM 2018: 60th Annual Meeting & Exhibition"
-journal: Medical Physics, Volume 56, Issue 6
+conference: "AAPM: 60th Annual Meeting & Exhibition"
+journal: Medical Physics
+volume: 56
+issue: 6
 location: Nashville, TN
 date: 2018-07-29
 ---
