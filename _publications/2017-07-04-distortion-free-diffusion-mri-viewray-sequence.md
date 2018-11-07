@@ -2,7 +2,9 @@
 layout: publication
 title: "Distortion-Free Diffusion MRI Using an MRI-Guided Tri-Cobalt 60 Radiotherapy System: Sequence Verification and Preliminary Clinical Experience"
 authors: Yu Gao, Fei Han, Ziwu Zhou, Minsong Cao, Tania Kaprealian, Mitchell Kamrava, Chenyang Wang, Jack Neylon, Daniel A. Low, Yingli Yang, and Peng Hu
-journal: Medical Physics, Volume 44, Issue 10
+journal: Medical Physics
+volume: 44
+issue: 10
 date: 2017-07-04
 year: 2017
 doi: https://doi.org/10.1002/mp.12465

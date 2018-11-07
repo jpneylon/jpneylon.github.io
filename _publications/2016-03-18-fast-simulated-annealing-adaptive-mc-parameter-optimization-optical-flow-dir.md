@@ -2,7 +2,9 @@
 layout: publication
 title: Fast Simulated Annealing and Adaptive Monte Carlo Sampling Based Parameter Optimization for Dense Optical Flow Deformable Image Registration of 4DCT Lung Anatomy
 authors: Tai Dou, Yugang Min, Jack Neylon, David Thomas, Patrick Kupelian, and Anand Santhanam
-journal: "SPIE Proceedings Volume 9786, Medical Imaging 2016: Image-Gudied Procedures, Robotic Interventions, and Modeling"
+journal: SPIE Proceedings
+volume: 9786
+issue: Image-Gudied Procedures, Robotic Interventions, and Modeling
 date: 2016-03-18
 year: 2016
 doi: https://doi.org/10.1117/12.2217194

@@ -2,7 +2,9 @@
 layout: publication
 title: Near Real-Time Assessment of Anatomic and Dosimetric Variations for Heand-and-Neck Radiation Therapy Via GPU-Based Dose Deformation Framework
 authors: X. Sharon Qi, Anand Santhanam, Jack Neylon, Yugang Min, Tess Armstrong, Ke Sheng, Robert Staton, Jason Pukala, Andrew Pham, Daniel A. Low, Steve P. Lee, Michael Steinberg, Rafael Manon, Allen Chen, and Patrick Kupelian
-journal: International Journal of Radiation Oncology Biology Physics, Volume 92, Issue 2
+journal: International Journal of Radiation Oncology Biology Physics
+volume: 92
+issue: 2
 date: 2015-01-27
 year: 2015
 doi: https://doi.org/10.1016/j.ijrobp.2015.01.033

@@ -2,7 +2,9 @@
 layout: publication
 title: A GPU-Based High-Resolution Multi-Level Biomechanical Head-and-Neck Model for Validating Deformable Image Regsitration
 authors: Jack Neylon, X. Sharon Qi, Ke Sheng, Robert Staton, Jason Pukala, Rafael Manon, Daniel A. Low, Patrick Kupelian, and Anand Santhanam
-journal: Medical Physics, Volume 42, Issue 1
+journal: Medical Physics
+volume: 42
+issue: 1
 date: 2014-12-22
 year: 2014
 doi: https://doi.org/10.1118/1.4903504

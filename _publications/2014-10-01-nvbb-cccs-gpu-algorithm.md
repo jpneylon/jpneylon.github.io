@@ -2,7 +2,9 @@
 layout: publication
 title: A Non-Voxel-Based Dose Convolution/Superposition Algorithm Optimized for Scalable GPU Architectures
 authors: Jack Neylon, Ke Sheng, Victoria Yu, Quan Chen, Daniel A. Low Patrick Kupelian, and Anand Santhanam
-journal: Medical Physics, Volume 41, Issue 10
+journal: Medical Physics
+volume: 41
+issue: 10
 date: 2014-10-01
 year: 2014
 doi: https://doi.org/10.1118/1.4895822
