@@ -4,26 +4,36 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<style>
+			.landing-image {
+				background-image: url('/media/big-sur-lone-tree-coast.jpg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;	
+			}
+			</style>
+
 		</head>
-		<body style="background-image:/media/big-sur-lone-tree-coast.jpg">
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:j.p.neylon@gmail.com">j.p.neylon@gmail.com</a></li>
-	        		<li><a href="https://github.com/jpneylon">github.com/jpneylon</a></li>
-				</ul>
-			</footer>
+		<body>
+			<div class="landing-image">
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/cv">CV</a></li>
+						<li><a href="/blog">Blog</a></li>
+					</ul>
+				</nav>
+
+				<div class="container">{{ content }}</div><!-- /.container -->
+				
+				<footer>
+					<ul>
+						<li><a href="mailto:j.p.neylon@gmail.com">j.p.neylon@gmail.com</a></li>
+						<li><a href="https://github.com/jpneylon">github.com/jpneylon</a></li>
+					</ul>
+				</footer>
+			</div>
 		</body>
 	</html>
