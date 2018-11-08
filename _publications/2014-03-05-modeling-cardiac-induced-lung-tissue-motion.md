@@ -3,6 +3,7 @@ layout: publication
 title: Modeling and Incorporating Cardiac-Induced Lung Tissue Motion in a Breathing Motion Model
 authors: Ben White, Anand Santhanam, David Thomas, Yugang Min, James, Lamb, Jack Neylon, Shyam Jani, Sergio Gaudio, Subashini Srinivasan, Daniel Ennis, and Daniel A. Low
 journal: Medical Physics
+acronym: MedPhys
 volume: 41
 issue: 4
 date: 2014-03-05
