@@ -3,6 +3,7 @@ layout: publication
 title: Systematic Feasibility Analysis of a Quantitative Elasticity Estimation for Breast Anatomy Using Supine/Prone Postures
 authors: Katelyn Hasse, Jack Neyluon, Ke Sheng, and Anand Santhanam
 journal: Medical Physics
+acronym: MedPhys
 volume: 43
 issue: 3
 date: 2016-02-17
