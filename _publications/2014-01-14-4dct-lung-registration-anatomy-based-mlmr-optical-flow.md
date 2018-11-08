@@ -3,6 +3,7 @@ layout: publication
 title: 4DCT Lung Registration Using Anatomy-Based Multi-Level Multi-Resolution Optical Flow Analysis and Thin-Plate Splines
 authors: Yugang Min, Jack Neylon, Amish Shah, Sanford Meeks, Percy Lee, Patrick Kupelian, and Anand Santhanam
 journal: International Journal of Computer Assisted Radiology & Surgery
+acronym: IJCARS
 volume: 9
 issue: 5
 date: 2017-05-05
