@@ -3,7 +3,7 @@ layout: patent
 id: 1
 title: Physics-Based High-Resolution Head-and-Neck Biomechanical Models
 inventors: Anand Santhanam, Jack Neylon, Patrick Kupelian
-number: U.S. Patient 9,786,092
+number: U.S. Patent 9,786,092
 link: https://patents.google.com/patent/US9786092?oq=9786092
 filed: 2015-02-18
 issued: 2017-10-10
