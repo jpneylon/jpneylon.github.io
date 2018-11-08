@@ -3,6 +3,7 @@ layout: publication
 title: Feasibility of Margin Reduction for Level II and III Planning Target Volume in Head-and-Neck Image-Guided Radiotherapy - Dosimetric Assessment via a Deformable Image Registration Framework
 authors: X. Sharon Qi, Jack Neylon, Sumeyra Can, Robert Staton, Jason Pukala, Patrick Kupelian, and Anand Santhanam
 journal: Current Cancer Therapy Reviews
+acronym: Current Cancer Therapy Reviews
 volume: 10
 issue: 4
 date: 2014-05-20
