@@ -3,6 +3,7 @@ layout: publication
 title: Analytic Inter-Model Consistent Modeling of Volumetric Human Lung Dynamics
 authors: Olusegun Ilegbusi, Behnaz Seyfi, Jack Neylon, and Anand Santhanam
 journal: Journal of Biomechanical Engineering
+acronym: J Biomech Engr
 volume: 137
 issue: 10
 date: 2015-09-07
