@@ -3,6 +3,7 @@ layout: publication
 title: Estimation and Validation of Patient-Specific High-Resolution Lung Elasticity Derived from 4DCT
 authors: Katelyn Hasse, Dylan O'Connell, Yugang Min, Jack Neylon, Daniel A. Low, and Anand Santhanam
 journal: Medical Physics
+acronym: MedPhys
 volume: 45
 issue: 2
 date: 2017-11-24
