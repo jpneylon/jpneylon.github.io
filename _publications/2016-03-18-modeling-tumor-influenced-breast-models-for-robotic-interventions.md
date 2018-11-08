@@ -2,10 +2,10 @@
 layout: publication
 title: Modeling and Simulation of Tumor-Influenced High Resolution Real-Time Physics-Based Breast Models for Model-Guided Robotic Interventions
 authors: Jack Neylon, Katelyn Hasse, Ke Sheng, and Anand Santhanam
-journal: SPIE Proceedings
+journal: "SPIE Proceedings: Image-Gudied Procedures, Robotic Interventions, and Modeling"
 acronym: SPIE Proc.
 volume: 9786
-issue: Image-Gudied Procedures, Robotic Interventions, and Modeling
+issue: 2016
 date: 2016-03-18
 year: 2016
 doi: https://doi.org/10.1117/12.2217028
