@@ -24,7 +24,7 @@ title: Jack Neylon, PhD
 			<li>PHD, Biomedical Physics
 				<ul>
 					<li>Dissertation: <a href="/docs/dissertation.pdf">Towards On-Line Adaptive Therapy through the Automation and Acceleration of Processes on Graphics Processing Units</a></li>
-					<li>UCLA Biomedical Physics Interdepartmental Graduation Program</li>
+					<li>UCLA Biomedical Physics Interdepartmental Graduate Program</li>
 					<li>05.2016</li>
 					<li><a href="https://escholarship.org/uc/item/8fd2x7xt">link</a></li>
 				</ul>
@@ -76,7 +76,11 @@ title: Jack Neylon, PhD
 			{% assign patents = site.patents | sort: 'id' %}
 			{% for patent in patents %}
 			<li>
-				<span>{{ patent.issued | date_to_string }}</span> » <a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
+				<a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
+				<ul>
+					<li>Issued: {{ patent.issued | date_to_string }}</li>
+					<li>{{ patent.number }}</li>
+				</ul>
 			</li>
 			{% endfor %}
 		</ul>
@@ -93,7 +97,7 @@ title: Jack Neylon, PhD
 					{% assign publications = year.items | sort: 'date' | reverse %}
 					{% for publication in publications %}
 					<li>
-						<span>{{ publication.journal }}, Vol. {{ publication.volume }}({{ publication.issue }})</span> » <a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a>
+						<a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a> » <span>{{ publication.journal }}, Vol. {{ publication.volume }}({{ publication.issue }})</span>
 					</li>
 					{% endfor %}
 				</ul>
