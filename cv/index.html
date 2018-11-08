@@ -78,8 +78,8 @@ title: Jack Neylon, PhD
 			<li>
 				<a href="{{ patent.url }}" title="{{ patent.title }}">{{ patent.title }}</a>
 				<ul>
-					<li>Issued: {{ patent.issued | date_to_string }}</li>
 					<li>{{ patent.number }}</li>
+					<li>Issued: {{ patent.issued | date_to_string }}</li>
 				</ul>
 			</li>
 			{% endfor %}
@@ -97,7 +97,7 @@ title: Jack Neylon, PhD
 					{% assign publications = year.items | sort: 'date' | reverse %}
 					{% for publication in publications %}
 					<li>
-						<a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a> » <span>{{ publication.journal }}, Vol. {{ publication.volume }}({{ publication.issue }})</span>
+						<a href="{{ publication.url }}" title="{{ publication.title }}">{{ publication.title }}</a> » <span>{{ publication.acronym }}, Vol. {{ publication.volume }}({{ publication.issue }})</span>
 					</li>
 					{% endfor %}
 				</ul>
