@@ -5,9 +5,8 @@ title: Project Pages
 	<h1>{{ page.title }}</h1>
 	<ul class="projects">
 	  {% for project in site.projects %}
-	    <li><a href="{{ project.link }}" title="{{ project.title }}">{{ project.title }}</a> -
-		</br>
-		{{ project.description }}
+	    <li><a href="{{ project.link }}" title="{{ project.title }}">{{ project.title }}</a>
+		<ul><li>{{ project.description }}</li</ul>
 	    </li>
 	  {% endfor %}
 	</ul>
