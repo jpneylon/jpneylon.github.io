@@ -6,7 +6,7 @@ title: Project Pages
 	<ul class="projects">
 	  {% for project in site.projects %}
 	    <li><a href="{{ project.url }}" title="{{ project.title }}">{{ project.title }}</a>
-        <ul><li>{{ project.description }}</li></ul>
-      </li>
+		<ul><li>{{ project.description }}</li></ul>
+	    </li>
 	  {% endfor %}
 	</ul>
