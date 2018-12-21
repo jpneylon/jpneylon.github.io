@@ -49,7 +49,7 @@ ul.posts li {
     margin: 1em auto;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
     -webkit-border-radius: 99em;
     -moz-border-radius: 99em;
     border-radius: 99em;
