@@ -14,3 +14,6 @@ collections:
   abstracts:
     output: true
     permalink: /abstracts/:year/:month/:title/
+  projects:
+    output: true
+    permalink: /projects/:year/:month/:title/
