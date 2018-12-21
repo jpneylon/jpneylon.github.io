@@ -3,6 +3,6 @@ layout: project
 title: "Anatotree"
 date: 2018-12-21
 link: "https://jpneylon.github.io/anatotree"
-description: "An interactive, collapsible dendrogram built on the data from the BodyParts3D dataset"
+description: "An interactive, collapsible dendrogram for hierarchical organization of human anatomy built on the data from the BodyParts3D dataset"
 ---
-An interactive, collapsible dendrogram built on the data from the <a href="http://lifesciencedb.jp/bp3d/">BodyParts3D dataset</a>
+An interactive, collapsible dendrogram for hierarchical organization of human anatomy built on the data from the <a href="http://lifesciencedb.jp/bp3d/">BodyParts3D dataset</a>
