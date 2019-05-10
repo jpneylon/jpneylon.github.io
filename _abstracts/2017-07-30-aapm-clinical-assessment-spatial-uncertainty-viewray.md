@@ -24,3 +24,5 @@ Average error was 1.15+/-1.14mm for the distortion phantom, and 1.46+/-1.78mm fo
 **Conclusion**
 
 Results indicate that spatial uncertainty remains in the MR images after systematic distortion corrections are applied. Even though the observed errors were small and should have little to no clinical significance, the uncertainty emphasizes the need for continued development of quantitative methods for assessing patient-specific spatial distortions as an important consideration in moving towards MR-only treatment planning.
+
+[Poster](/docs/AAPM2017_ePoster_JNeylon_v3.pdf)

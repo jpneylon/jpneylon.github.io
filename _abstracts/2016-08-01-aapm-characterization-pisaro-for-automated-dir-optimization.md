@@ -24,3 +24,5 @@ Strong inverse correlation was observed between the TRE and CFR when the data wa
 **Conclusions**
 
 Replacing the time consuming, manually placed landmark assessment methodology is necessary for patient and site specific registration optimization to be clinically feasible. The proposed cost function is a promising alternative for fast, fully automated DIR performance quantification.
+
+[Poster](/docs/AAPM2016_ePoster_JNeylon_v2.pdf)
