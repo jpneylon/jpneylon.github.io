@@ -6,7 +6,7 @@ journal: Medical Physics
 acronym: MedPhys
 volume: 44
 issue: 8
-date: 2017-05-05
+date: 2017-07-17
 year: 2017
 doi: https://doi.org/10.1002/mp.12321
 link: /docs/2017-05-05-neural-network-approach-for-fast-automated-quantification-of-dir.pdf
