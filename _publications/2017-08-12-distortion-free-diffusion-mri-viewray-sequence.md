@@ -6,7 +6,7 @@ journal: Medical Physics
 acronym: MedPhys
 volume: 44
 issue: 10
-date: 2017-07-04
+date: 2017-08-12
 year: 2017
 doi: https://doi.org/10.1002/mp.12465
 link: /docs/2017-07-04-distortion-free-diffusion-mri-viewray-sequence.pdf
