@@ -7,7 +7,7 @@ acronym: IJCARS
 volume: 9
 issue: 5
 date: 2017-05-05
-yeay: 2017
+year: 2017
 doi: https://doi.org/10.1007/s11548-013-0975-7
 link: /docs/2014-01-14-4dct-lung-registration-anatomy-based-mlmr-optical-flow.pdf
 ---
