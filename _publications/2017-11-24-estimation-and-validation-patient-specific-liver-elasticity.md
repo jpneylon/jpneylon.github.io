@@ -6,8 +6,8 @@ journal: "Biomedical Physics & Engineering Express"
 acronym: BPEX
 volume: 4
 issue: 4
-date: 2018-07-10
-year: 2018
+date: 2017-11-24
+year: 2017
 doi: https://doi.org/10.1088/2057-1976/aace4d
 link: /docs/
 ---
