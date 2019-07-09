@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Parallel Beamlet Dose Calculation via Beamlet Contexts in a Distributed Multi-GPU Framework
+title: "Parallel Beamlet Dose Calculation via Beamlet Contexts in a Distributed Multi-GPU Framework"
 authors: Ryan Neph, Cheng Ouyang, John Neylon, Youming Yang, and Ke Sheng
 journal: "Medical Physics"
 acronym: MedPhys
