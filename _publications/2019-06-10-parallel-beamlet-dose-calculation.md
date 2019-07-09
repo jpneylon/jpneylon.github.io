@@ -4,8 +4,8 @@ title: "Parallel Beamlet Dose Calculation via Beamlet Contexts in a Distributed 
 authors: Ryan Neph, Cheng Ouyang, John Neylon, Youming Yang, and Ke Sheng
 journal: "Medical Physics"
 acronym: MedPhys
-volume: --
-issue: -
+volume: 00
+issue: 0
 date: 2019-06-10
 year: 2019
 doi: https://doi.org/10.1002/mp.13651
