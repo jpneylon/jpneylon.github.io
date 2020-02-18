@@ -1,0 +1,28 @@
+---
+layout: publication
+title: "Residual Setup Errors in Cranial Stereotactic Radiosurgery without Six Degree of Freedom Robotic Couch: Frameless Versus Rigid Immobilization Systems"
+authors: Raymond Liu, Scarlet Yang, John Neylon, Matthew Hall, Savita Dandapani, Nayana Vora, Jeffrey Wong, and An Liu
+journal: "Journal of Applied Clinical Medical Physics"
+acronym: JACMP
+volume: 01
+issue: 7
+date: 2020-01-10
+year: 2020
+doi: https://doi.org/10.1002/acm2.12828
+link: /docs/2020-01-10-residual-setup-errors-cranial-srs.pdf
+---
+**Purpose**
+
+This IRB‐approved study was to compare the residual inter‐fractional setup errors and intra‐fractional motion of patients treated with cranial stereotactic radiosurgery without a 6 degree of freedom (DoF) couch. We evaluated both frameless non‐invasive vacuum‐suction immobilization (Aktina PinPoint) and TALON rigid screw immobilization.
+
+**Methods**
+
+Twenty consecutive patients treated by Varian TrueBeam STX or Tomotherapy were selected for data collection. The dose and number of fractions received by each patient ranged from 18 Gy in 1 fraction (SRS) to 25 Gy in 5 fractions (SRT). Twelve patients were immobilized using PinPoint, a frameless suction system (Aktina Medical, New York) and eight patients were immobilized using the TALON rigid screw system. Customized head cushions were used for all patients. Six Atkina patients received pre‐ and post‐treatment cone‐beam CT (CBCT) to evaluate the intra‐fractional motion of the Aktina system. The intra‐fractional motion with the TALON rigid screw system has been reported to be negligible and was not repeated in this study. All patients received pre‐treatment CBCT or megavoltage CT (MVCT) to assess inter‐fractional setup accuracy. Shifts to the final treatment position were determined based on matching bony anatomy in the pre‐treatment setup CT and the planning CT. Setup CT and planning CT were registered retrospectively based on bony anatomy using image registration software to quantify rotational and translational errors. 
+
+**Results**
+
+For the frameless Aktina system, mean and standard deviation of the intra‐fractional motion were −0.5 ± 0.7 mm (lateral), 0.1 ± 0.9 mm (vertical), −0.5 ± 0.6 mm (longitudinal), −0.04 ± 0.18°(pitch), −0.1 ± 0.23°(yaw), and −0.03 ± 0.17°(roll) indicating negligible intra‐fractional motion. Inter‐fractional rotation errors were −0.10 ± 0.25° (pitch), −0.08 ± 0.16° (yaw), and −0.20 ± 0.41° (roll) for TALON rigid screw immobilization versus 0.20 ± 0.69° (pitch), 0.34 ± 0.56° (yaw), 0.35 ± 0.82° (roll) for frameless vacuum‐suction immobilization showing that the rigid immobilization setup is more reproducible than the frameless immobilization. Without rotational correction by a 6 DoF couch, residual registration error exists and increases with distance from the image fusion center. In a 3D vector space, a tumor located 5 cm from the center of image fusion would require a 0.9 mm margin with the TALON system and a 2.1 mm margin with Aktina. 
+
+**Conclusions**
+
+With image‐guided radiotherapy, translational setup errors can be corrected by image registration between pre‐treatment setup CT and planning CT. However, rotational errors cannot be accounted for without a 6 DoF couch. Our study showed that the frameless Aktina immobilization system provided negligible intra‐fractional motion. The inter‐fractional rotation setup error using Aktina was larger than rigid immobilization with the TALON system. To treat a single lesion far from the center of image registration or for multiple lesions in a single plan, additional margin may be needed to account for the uncorrectable rotational setup errors.
